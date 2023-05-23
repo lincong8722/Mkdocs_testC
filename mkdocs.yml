@@ -13,10 +13,5 @@ plugins:
   - mkdocstrings
 
 
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: code
-          class: highlight
-          format: !!python/name:pymdownx.superfences.fence_div_format
+
 
