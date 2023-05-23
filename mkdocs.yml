@@ -1,0 +1,22 @@
+site_name: Calculation
+#theme:
+#  name: "material"
+theme: readthedocs
+nav:
+  - index.md
+  - tutorials.md
+  - How-To Guides: how-to-guides.md
+  - reference.md
+  - explanation.md
+
+plugins:
+  - mkdocstrings
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: code
+          class: highlight
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
